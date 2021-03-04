@@ -1,0 +1,18 @@
+Check ->/
+find cl la + a droite/function
+parcours tout les elements cl par cl l par l /
+check si monstre est en vie/
+parcours les lignes et check si les monstres de la derniere collone sont en vie ainsi que si ils depassent la limite droite de l'ecran/
+<- 
+check si il y as un mur a droite et si le monstre est deja descendu a la frame d'avant/
+sinon check si il y as pas de mur a droite/
+
+sinon check <-/
+find cl la + a gauche/function
+parcours tout les elements cl par cl l par l/les deux au debut
+check si monstre est en vie/
+parcours les lignes et check si les monstre de la 1er collone sont en vie ainsi que si ils depassent la limite gauche de l'ecran/
+<-
+check si il y as un mur a gauche/
+sinon check si il n'y as pas de nur a gauche/
+
