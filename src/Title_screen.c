@@ -31,6 +31,7 @@ void Title_screen(t_screen* screen, t_time* time)
 				SDL_DestroyTexture(pic->texture);
 				free(pic);
 				screen->screen_number = 0;
+				return;
 			}
 			else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_f )
 			{
@@ -38,6 +39,7 @@ void Title_screen(t_screen* screen, t_time* time)
 				SDL_DestroyTexture(pic->texture);
 				free(pic);
 				screen->screen_number = 2;
+				return;
 			}
 		}
 	}

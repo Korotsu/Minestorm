@@ -28,5 +28,5 @@ Build & Run :
 
 -1 Télécharger tous les fichiers du répertoire git ;
 -2 Les extraire dans un dossier quelconque mais respecter l'architecture des dossiers sous-dossier.
--3 Compiler en utilisant gcc et le makefie via les commandes make tel que make run pour le lancer , make clean pour le nettoyer 
+-3 Lancer l'exectutable situer dans bin ou lancer la solution visual studio. 
 -4 Profiter du jeu !

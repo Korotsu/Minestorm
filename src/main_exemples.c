@@ -1,7 +1,7 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 int lol(int argc, char* argv[])
 {
