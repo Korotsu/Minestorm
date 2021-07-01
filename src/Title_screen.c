@@ -50,7 +50,7 @@ t_pic* Title_font_init(t_screen* screen)
 {
 	t_pic* pic = malloc(sizeof(t_pic));
 	//load the picture
-	pic->surface = SDL_LoadBMP("./media/Picture/Main_menu.bmp");
+	pic->surface = SDL_LoadBMP("../media/Picture/Main_menu.bmp");
 	if (pic->surface == NULL)
 		return pic;
 

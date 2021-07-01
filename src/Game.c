@@ -117,13 +117,13 @@ void init_screen(t_screen* screen)
 		my_put_string("Erreur d'initialisation de TTF_Init : %s\n");
 		my_put_string(TTF_GetError());
 	}
-	screen->font  = TTF_OpenFont("./media/Fonts/space_invaders.ttf", 300);
+	screen->font  = TTF_OpenFont("../media/Fonts/space_invaders.ttf", 300);
 }
 
 t_pic Map_init(t_screen* screen, t_object* object)
 {
 	t_pic pic 		= object->pic;
-	pic.surface 	= SDL_LoadBMP("./media/Picture/star.bmp");
+	pic.surface 	= SDL_LoadBMP("../media/Picture/star.bmp");
 	if (pic.surface == NULL)
 		return pic;
 

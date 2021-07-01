@@ -44,7 +44,7 @@ void text_init(t_screen* screen)
 		my_put_string("Erreur d'initialisation de TTF_Init : %s\n");
 		my_put_string(TTF_GetError());
 	}
-	TTF_Font* font  = TTF_OpenFont("./media/Fonts/space_invaders.ttf", 300);
+	TTF_Font* font  = TTF_OpenFont("../media/Fonts/space_invaders.ttf", 300);
 	SDL_Color color = { 255, 255, 255, 255 };
 	char* word = "Press Return to play again !";
 	SDL_Surface* surface = TTF_RenderText_Blended(font, word, color);
